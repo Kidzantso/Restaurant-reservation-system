@@ -30,7 +30,7 @@ public class Welcome extends Scene {
 
         Pane pane = new Pane();
 
-        ImageView background = new ImageView("C:\\Users\\dodom\\OneDrive\\Documents\\NetBeansProjects\\JavaFXApplication6\\blur-coffee-cafe-shop-restaurant-with-bokeh-background-xd.png");
+        ImageView background = new ImageView("images/blur-coffee-cafe-shop-restaurant-with-bokeh-background-xd.png");
         background.setFitHeight(600);
         background.setFitWidth(1000);
 
