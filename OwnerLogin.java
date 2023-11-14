@@ -24,7 +24,7 @@ public class OwnerLogin extends Scene{
 
         GridPane g1 = new GridPane();
 Owner o1=new Owner();
-        ImageView background1 = new ImageView("C:\\Users\\dodom\\OneDrive\\Documents\\NetBeansProjects\\JavaFXApplication6\\wooden-board-empty-table-top-blurred-background.JPG");
+        ImageView background1 = new ImageView("images/wooden-board-empty-table-top-blurred-background.JPG");
         background1.setFitHeight(600);
         background1.setFitWidth(1000);
         final PasswordField pf = new PasswordField();
