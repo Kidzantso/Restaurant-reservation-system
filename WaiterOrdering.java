@@ -45,7 +45,7 @@ grid.setHgap(10);
 grid.setVgap(10);
 grid.setPadding(new Insets(10, 10, 10, 10));
  
-ImageView background2 = new ImageView("C:\\Users\\dodom\\OneDrive\\Documents\\NetBeansProjects\\JavaFXApplication6\\Backmanager.jpg");
+ImageView background2 = new ImageView("images/Backmanager.jpg");
         background2.setFitHeight(600);
         background2.setFitWidth(1000);
         Label Menu = new Label("Menu:");
