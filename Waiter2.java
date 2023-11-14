@@ -59,11 +59,11 @@ public class Waiter2 extends Scene{
         show.selectedProperty().addListener((observable, oldValue, newValue) -> {
             if (newValue) {pass2.toFront();}else {pass.toFront();}
         });
-        Image logo = new Image(new FileInputStream("C:\\Users\\dodom\\OneDrive\\Documents\\NetBeansProjects\\JavaFXApplication6\\DYNZlogo-1.png"));
+        Image logo = new Image(new FileInputStream("images/DYNZlogo-1.png"));
         ImageView logoview = new ImageView(logo);
-        Image Background = new Image(new FileInputStream("C:\\Users\\dodom\\OneDrive\\Documents\\NetBeansProjects\\JavaFXApplication6\\back.png"));
+        Image Background = new Image(new FileInputStream("images/back.png"));
         ImageView Backgroundview = new ImageView(Background);
-        Image backimage = new Image(new FileInputStream("C:\\Users\\dodom\\OneDrive\\Documents\\NetBeansProjects\\JavaFXApplication6\\B.png"));
+        Image backimage = new Image(new FileInputStream("images/B.png"));
         ImageView backview2 = new ImageView(backimage);
         logoview.setFitHeight(60);
         logoview.setFitWidth(60);
