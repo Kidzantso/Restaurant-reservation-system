@@ -30,7 +30,7 @@ import javafx.stage.Stage;
 public class Login extends Scene{
    public Login(Pane parent, double d, double d1,Branches branch1,Tables t1,Customer c1,Manager m1,Owner owner1,Waiter waiter1,Menu menu1,Item item1,Order order1,Register Register1) {
         super(parent, d, d1);
-        ImageView background3 = new ImageView("C:\\Users\\dodom\\OneDrive\\Documents\\NetBeansProjects\\JavaFXApplication6\\Sign In.png");
+        ImageView background3 = new ImageView("images/Sign In.png");
         background3.setFitHeight(600);
         background3.setFitWidth(1000);  
         Pane p1 = new Pane();
