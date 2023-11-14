@@ -33,7 +33,7 @@ public class SignUp extends Scene {
     public SignUp(Pane parent, double d, double d1,Branches branch1,Tables t1,Customer c1,Manager m1,Owner owner1,Waiter waiter1,Menu menu1,Item item1,Order order1,Register Register1) {
         super(parent, d, d1);
 
-        ImageView background3 = new ImageView("C:\\Users\\dodom\\OneDrive\\Documents\\NetBeansProjects\\JavaFXApplication6\\SignUp.jpg");
+        ImageView background3 = new ImageView("images/SignUp.jpg");
         background3.setFitHeight(600);
         background3.setFitWidth(1000);
 
