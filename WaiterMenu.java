@@ -49,11 +49,11 @@ Back2.setOnAction(new EventHandler<ActionEvent>() {
                 }
             }
         });
-        Image logo = new Image(new FileInputStream("C:\\Users\\dodom\\OneDrive\\Documents\\NetBeansProjects\\JavaFXApplication6\\DYNZlogo-1.png"));
+        Image logo = new Image(new FileInputStream("images/DYNZlogo-1.png"));
         ImageView logoview = new ImageView(logo);
-        Image Background = new Image(new FileInputStream("C:\\Users\\dodom\\OneDrive\\Documents\\NetBeansProjects\\JavaFXApplication6\\back.png"));
+        Image Background = new Image(new FileInputStream("images/back.png"));
         ImageView Backgroundview2 = new ImageView(Background);
-        Image backimage = new Image(new FileInputStream("C:\\Users\\dodom\\OneDrive\\Documents\\NetBeansProjects\\JavaFXApplication6\\B.png"));
+        Image backimage = new Image(new FileInputStream("images/B.png"));
         ImageView backview = new ImageView(backimage);
         logoview.setFitHeight(50);
         logoview.setFitWidth(50);
@@ -104,7 +104,7 @@ Resetorders.setOnAction(new EventHandler<ActionEvent>() {
         });
 Resetorders.setStyle("-fx-background-color: #7cfc00;-fx-border-width: 0.75px;-fx-border-color: #000000;");
 buttonsw.getChildren().addAll(Addorder,vieworder,Resetorders);
-Image waiterphoto = new Image(new FileInputStream("C:\\Users\\dodom\\OneDrive\\Documents\\NetBeansProjects\\JavaFXApplication6\\R2.png"));
+Image waiterphoto = new Image(new FileInputStream("images/R2.png"));
 ImageView iv1 = new ImageView(waiterphoto);
 iv1.setFitHeight(120);
 iv1.setFitWidth(130);
