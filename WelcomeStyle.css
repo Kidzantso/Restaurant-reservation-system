@@ -1,0 +1,253 @@
+/* .button {
+    -fx-background-color: 
+        #3c7fb1,
+        linear-gradient(#fafdfe, #e8f5fc),
+        linear-gradient(#eaf6fd 0%, #d9f0fc 49%, #bee6fd 50%, #a7d9f5 100%);
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 3,2,1;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+} */
+
+/*.button { 
+    -fx-background-color: red; 
+    -fx-text-fill: white; 
+}*/
+.button {
+    -fx-cursor: hand;
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-border-radius: 3;
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #FFFFFF 0%, #55aa3f 100%),
+        #55aa3f,
+        #55aa3f,
+        radial-gradient(center 50% 50%, radius 100%, #FFFFFF, #55aa3f);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+
+.button:hover{
+    /*    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+        -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+        -fx-background-radius: 3px, 3px, 2px, 1px;
+        -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em;  4 8 4 8 
+        -fx-text-fill: -fx-text-base-color;
+        -fx-alignment: CENTER;
+        -fx-content-display: LEFT;*/
+
+    -fx-cursor: hand;
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-border-radius: 3;
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #55aa3f 0%, #FFFFFF 100%),
+        #FFFFFF,
+        #FFFFFF,
+        radial-gradient(center 50% 50%, radius 100%, #55aa3f,  #FFFFFF);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: whitesmoke;
+}
+
+#exit:hover{
+    -fx-cursor: hand;
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-border-radius: 3;
+    -fx-text-fill:whitesmoke;
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #FFFFFF 0%, #FF0000 100%),
+        #FF0000,
+        #FF0000,
+        radial-gradient(center 50% 50%, radius 100%,  #FF0000 ,  #FFFFFF);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+/*
+*/#exit{
+    -fx-cursor: hand;
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-border-radius: 3;
+    -fx-text-fill: whitesmoke;
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #D30000 0%, #FFFFFF 100%),
+        #FFFFFF,
+        #FFFFFF,
+        radial-gradient(center 50% 50%, radius 100%,  #D30000,   #D30000);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+
+.label{
+    -fx-text-fill: whitesmoke;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    /*-fx-fill: #ff0000;*/
+    -fx-stroke : #55aa3f;
+    -fx-stroke-width: 100;
+    -fx-stroke-line-join: round;
+    -fx-stroke-line-cap: round;
+}
+
+#labels{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    /*-fx-fill: #ff0000;*/
+    -fx-stroke : #000000;
+    -fx-stroke-width: 100;
+    -fx-stroke-line-join: round;
+    -fx-stroke-line-cap: round;
+}
+
+.text-field
+{
+    -fx-background-color: transparent, #249106, transparent, white;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-padding: 0.166667em;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+
+.text-field:hover
+{
+    -fx-background-color: transparent, #95e181, transparent, #95e181;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-padding: 0.166667em;
+}
+
+.text-field:focused
+{
+    -fx-background-color: transparent, #177f00, transparent, #177f00;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-padding: 0.166667em;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#textFields
+{
+    -fx-background-color: transparent, #000000, transparent, #00AC14;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-padding: 0.166667em;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+
+#textFields:hover
+{
+    -fx-background-color: transparent, #95e181, transparent, #95e181;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-padding: 0.166667em;
+}
+
+#textFields:focused
+{
+    -fx-background-color: transparent, #177f00, transparent, #177f00;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-padding: 0.166667em;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/*#signUp{
+    -fx-background: none!important;
+    -fx-border: none;
+    -fx-padding: 0!important;
+    optional
+    -fx-font-family: arial, sans-serif;
+    input has OS specific font-family
+    -fx-color: #0707F2;
+    -fx-text-decoration: underline;
+    -fx-cursor: hand;
+}*/
+
+/*#signUp:hover{
+    -fx-background: none!important;
+    -fx-border: none;
+    -fx-padding: 0!important;
+    optional
+    -fx-font-family: arial, sans-serif;
+    input has OS specific font-family
+    -fx-color: #000056;
+    -fx-text-decoration: none;
+    -fx-cursor: hand;
+}*/
+
+
+/*.comboBox .list-cell 
+{
+    -fx-background: white;
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-text-base-color;
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 1.66667em; 
+}*/
+
+/*.comboBox-popup .list-view 
+{
+    -fx-background-color: white, white;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+}    
+
+.combo-box-popup .list-view .list-cell 
+{
+    -fx-padding: 4 0 4 5;
+
+     No alternate highlighting 
+    -fx-background-color: white;
+}
+
+.comboBox-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover 
+{
+    -fx-background: -fx-accent;
+    -fx-background-color: -fx-selection-bar;
+    -fx-text-fill: -fx-selection-bar-text;
+}
+
+.comboBox-popup .list-view .list-cell:filled:hover 
+{
+    -fx-background-color: white;
+    -fx-text-fill: -fx-text-inner-color;
+}
+
+.comboBox-base  
+{
+    -fx-skin: "com.sun.javafx.scene.control.skin.ComboBoxBaseSkin";
+    -fx-background-color: white, white, white, white;
+    -fx-background-radius: 5, 5, 4, 3;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-padding: 0;
+}
+
+.comboBox-base:hover
+{
+    -fx-color: -fx-hover-base;
+}
+
+.comboBox-base:showing 
+{
+    -fx-color: -fx-pressed-base;
+}
+
+.comboBox-base:focused {
+    -fx-background-color: -fx-focus-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-radius: 6.4, 4, 5, 3;
+    -fx-background-insets: -1.4, 0, 1, 2;
+}
+
+.comboBox-base:disabled {
+    -fx-opacity: .4;
+}*/
