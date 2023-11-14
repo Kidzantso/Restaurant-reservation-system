@@ -40,7 +40,7 @@ public class ManagerMenu extends Scene {
     public ManagerMenu(Parent parent, double d, double d1,Branches branch1,Tables t1,Customer c1,Manager m1,Owner owner1,Waiter waiter1,Menu menu1,Item item1,Order order1,Register Register1) {
         super(parent, d, d1);
         Pane pane1 = new Pane();
-        ImageView background2 = new ImageView("C:\\Users\\dodom\\OneDrive\\Documents\\NetBeansProjects\\JavaFXApplication6\\abstract-blur-coffee-shop-cafe-interior.PNG");
+        ImageView background2 = new ImageView("images/abstract-blur-coffee-shop-cafe-interior.PNG");
         background2.setFitHeight(600);
         background2.setFitWidth(1000);
 
