@@ -38,7 +38,7 @@ public class OwnerFunctions extends Scene{
 Owner o1=new Owner();
 //Tables t1=new Tables();
 //Branches branch1=new Branches();
-        ImageView background2 = new ImageView("C:\\Users\\dodom\\OneDrive\\Documents\\NetBeansProjects\\JavaFXApplication6\\abstract-blur-coffee-shop-cafe-interior.PNG");
+        ImageView background2 = new ImageView("images/abstract-blur-coffee-shop-cafe-interior.PNG");
         background2.setFitHeight(600);
         background2.setFitWidth(1000);
 
