@@ -50,7 +50,7 @@ grid.setAlignment(Pos.CENTER);
 grid.setHgap(10); //horizontal gap in pixels
 grid.setVgap(10); //vertical gap in pixels
 grid.setPadding(new Insets(10, 10, 10, 10));
-ImageView background2 = new ImageView("C:\\Users\\dodom\\OneDrive\\Documents\\NetBeansProjects\\JavaFXApplication6\\Backmanager.jpg");
+ImageView background2 = new ImageView("images/Backmanager.jpg");
         background2.setFitHeight(600);
         background2.setFitWidth(1000);
 /* Create account form components*/
