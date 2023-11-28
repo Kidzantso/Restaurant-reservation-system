@@ -76,13 +76,13 @@ The reservation is a bit complicated but it can be much simpler of course but as
 
 The way i used was a Hashmap for the branches that contains a Hashmap for the Times of the day for each table that contains an arraylist of the object tables that specify if it is reserved or not.
 
-But it could be much simpler with a hashmap that contains a 2d array Times[]Tables[] if you want to take it and edit in it.
+But it could be much simpler with a hashmap that contains a 2d array Times[no.of hours]Tables[no. of tables] if you want to take it and edit in it.
 
-The ordering is simply taking items from the menu and add it to an arraylist of orders with their salary and calculate the sum of the order and give out a reciept.
+The ordering is simply taking items from the menu and add it to an arraylist of orders with their price and calculate the sum of the order and give out a reciept.
 # URM class diagram
 [Project1.Final.pdf](https://github.com/Kidzantso/Restaurant-reservation-system/files/13370992/Project1.FinalFinal.pdf)
 # Notes📋
 * Again,The class called project is a console system to the same program without GUI if you don't want a GUI;
-* The promocode doesn't function properly
+* The promocode doesn't function properly(doesn't function at all)
 * You may have an issues with the images paths as i had one before because of my compiler but you can just copy the files paths locally from your pc and it will work
 * If you have a problem with the class loaders try to copy and paste the code only without installing the files and make sure to change the package name as this was an issue with my team while working
